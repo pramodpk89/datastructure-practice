@@ -7,6 +7,7 @@ package com.ppk.dsa.arrays;
  * e.g: [1,2,3,4,5,6,76,7,8]
  * return 6
  *
+ * time complexity o(n)
  */
 public class RandomNumber {
     public static void main(String[] args) {
