@@ -1,4 +1,4 @@
-package com.ppk.dsa.arrays;
+package com.ppk.dsa.generic;
 
 /**
  * A number is an armstrong number if sum of cubes of its digit is equal to the number
