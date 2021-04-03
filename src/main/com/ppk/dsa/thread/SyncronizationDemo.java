@@ -1,4 +1,4 @@
-package com.ppk.dsa.strings;
+package com.ppk.dsa.thread;
 
 
 public class SyncronizationDemo {
