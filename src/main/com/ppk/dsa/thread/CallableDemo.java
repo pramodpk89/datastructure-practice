@@ -1,4 +1,4 @@
-package com.ppk.dsa.generic;
+package com.ppk.dsa.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -15,6 +15,7 @@ public class CallableDemo {
         service.shutdown();
     }
 }
+
 
 
 class waitReturnTime implements Callable<Long> {
