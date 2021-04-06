@@ -1,4 +1,4 @@
-package main.com.ppk.dsa.strings;
+package com.ppk.dsa.strings;
 
 import java.util.Arrays;
 
