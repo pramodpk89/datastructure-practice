@@ -1,4 +1,4 @@
-package main.com.ppk.dsa.linklist;
+package com.ppk.dsa.linklist;
 
 public class LinkListTest {
 
