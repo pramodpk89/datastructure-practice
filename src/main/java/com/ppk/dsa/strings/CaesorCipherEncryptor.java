@@ -9,24 +9,23 @@ import org.junit.jupiter.api.Test;
  * output "zab"
  */
 public class CaesorCipherEncryptor {
-//time complexity O(N) | O(N) space complexity
+//time complexity O(N) | O(1) space complexity
     public static String caesarCypherEncryptor(String str, int key) {
         if(key>26){
             key=key%26;
         }
         char[] chars=str.toCharArray();
-        char[] res=new char[chars.length];
         for(int i=0;i<chars.length;i++){
             char c=chars[i];
             if(c+key<=122){
-                res[i]= (char) ( c+key);
+                chars[i]= (char) ( c+key);
             }
             else{
                 c=(char)((c+key)%122+96);
-                res[i]=c;
+                chars[i]=c;
             }
         }
-        return String.valueOf(res);
+        return String.valueOf(chars);
     }
 
     @Test
