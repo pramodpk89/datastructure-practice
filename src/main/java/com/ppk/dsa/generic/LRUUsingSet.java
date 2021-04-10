@@ -2,12 +2,12 @@ package com.ppk.dsa.generic;
 
 import java.util.*;
 
-class LRUCache {
+class LRUUsingSet {
 
     Set<Integer> cache;
     int capacity;
 
-    public LRUCache(int capacity)
+    public LRUUsingSet(int capacity)
     {
         this.cache = new LinkedHashSet<Integer>(capacity);
         this.capacity = capacity;
@@ -50,7 +50,7 @@ class LRUCache {
 
     public static void main(String[] args)
     {
-        LRUCache ca = new LRUCache(4);
+        LRUUsingSet ca = new LRUUsingSet(4);
         ca.refer(1);
         ca.refer(2);
         ca.refer(3);
